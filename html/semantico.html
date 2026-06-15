@@ -3,7 +3,62 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HTML Semântico</title>
+        <title>Projeto HTML Semântico</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background: #f0f0f0;
+            }
+            header{
+                background: #3498db;
+                color: white;
+                padding: 20px;
+            }
+            nav{
+                background: #e67e22;
+                padding: 10px;
+            }
+            nav ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            nav li{
+                display: inline;
+                margin-right: 15px;
+            }
+            nav a{
+                color: white;
+                text-decoration: none;
+            }
+            main{
+                background: white;
+                padding: 20px;
+            }
+            section{
+                background: #f1c40f;
+                padding: 15px;
+                margin-bottom: 10px;
+            }
+            article{
+                background: #2ecc71;
+                padding: 15px;
+                margin-top: 10px;
+            }
+            aside{
+                background: #9b59b6;
+                color: white;
+                padding: 15px;
+                margin-top: 10px;
+            }
+            footer{
+                background: #2c3e50;
+                color: white;
+                text-align: center;
+                padding: 15px;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -15,20 +70,20 @@
                 </ul>
             </nav>
         </header>
-        <main>  
+        <main>
             <section>
-                <h2>Nossa Missão (Section)</h2>        
+                <h2>Nossa Missão (Section)</h2>
                 <article>
                     <h3>História da Empresa (Article)</h3>
                     <p>Conteúdo independente...</p>
                 </article>
             </section>
             <aside>
-                <p>Links Relacionados (Aside)</p>
+                <h4>Links Relacionados (Aside)</h4>
             </aside>
         </main>
         <footer>
-            <p>&copy; 2026 - Rodapé Semântico</p>
+            <p>© 2026 - Rodapé Semântico</p>
         </footer>
     </body>
 </html>
