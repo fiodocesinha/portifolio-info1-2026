@@ -1,0 +1,17 @@
+<style>
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #808080;
+  justify-content:center;
+  space-around:center;
+}
+.container div {
+  background-color:#FF0000 ;
+  width: 10px;
+  margin: 30px;
+  padding: 50px;
+  text-align:center;  
+  font-size: 30px;
+}
+</style>
