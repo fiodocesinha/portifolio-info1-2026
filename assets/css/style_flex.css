@@ -1,14 +1,30 @@
-.container {
-  display: flex;
-  flex-direction: row;
-  background-color: gray;
-  justify-content:center;
-  align-items: center;
-}
-.quadrado_vermelho{
-  background-color: red;
-  width: 35px;
-  height: 35px;
-  margin: 75px;
-  padding: 100px;
-}
+   .quadro {
+      width: 420px;
+      height: 320px;
+      background: #d0d0d0; /* cinza */
+      position: relative;
+      border: 1px solid #bbb;
+      margin: 20px;
+    }
+    .quadrado {
+      width: 90px;
+      height: 90px;
+      position: absolute;
+    }
+    .azul {
+      background: #1e90ff;
+      top: 0;
+      left: 0;
+    }
+    .vermelho {
+      background: #e81e1e;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .amarelo {
+      background: #ffd700;
+      right: 0;
+      bottom: 0;
+    }
+  
