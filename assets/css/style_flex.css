@@ -1,30 +1,37 @@
-   .quadro {
-      width: 420px;
-      height: 320px;
-      background: #d0d0d0; /* cinza */
-      position: relative;
-      border: 1px solid #bbb;
-      margin: 20px;
-    }
-    .quadrado {
-      width: 90px;
-      height: 90px;
-      position: absolute;
-    }
-    .azul {
-      background: #1e90ff;
-      top: 0;
-      left: 0;
-    }
-    .vermelho {
-      background: #e81e1e;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .amarelo {
-      background: #ffd700;
-      right: 0;
-      bottom: 0;
-    }
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.quadro {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: grey;
+}
+.quadradoazul {
+  background-color: blue;
+  top: 40px;
+  left: 40px;
+}
+
+.quadradovermelho {
+  background-color: red;
+  top: 250px;
+  left: 250px;
+}
+
+.quadradoamarelo {
+  background-color: yellow;
+  bottom: 40px;
+  right: 40px;
+}
