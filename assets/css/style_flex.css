@@ -3,18 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-}
 .quadro {
   position: relative;
   width: 600px;
   height: 600px;
   background-color: grey;
+   align-items: center;
+  justify-content: center;
+  background-color: white;
 }
 .quadradoazul {
   background-color: blue;
