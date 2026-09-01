@@ -11,25 +11,29 @@ body {
   justify-content: center;
   background-color: white;
 }
-
 .quadro {
   position: relative;
   width: 600px;
   height: 600px;
   background-color: grey;
 }
+.quadradoazul,
+.quadradovermelho,
+.quadradoamarelo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
 .quadradoazul {
   background-color: blue;
   top: 40px;
   left: 40px;
 }
-
 .quadradovermelho {
   background-color: red;
   top: 250px;
   left: 250px;
 }
-
 .quadradoamarelo {
   background-color: yellow;
   bottom: 40px;
