@@ -16,24 +16,17 @@ body {
   height: 600px;
   background-color: grey;
 }
-.quadrado azul,
-.quadrado vermelho,
-.quadrado amarelo {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-}
 .quadradoazul {
   background-color: blue;
   top: 40px;
   left: 40px;
 }
-.quadradov vermelho {
+.quadradovvermelho {
   background-color: red;
   top: 250px;
   left: 250px;
 }
-.quadrado amarelo {
+.quadradoamarelo {
   background-color: yellow;
   bottom: 40px;
   right: 40px;
